@@ -999,5 +999,5 @@
 <word pos="ADP" lemma="til" />til</word>
 <word pos="PROPN" lemma="simon" />Simonar</word>
 
-поиск:^([^\n\t]+)\t([^\n\t]+)\t([^\n\t]+)
-замена:<word pos="\3" lemma="\2" />\1</word>
+find:^([^\n\t]+)\t([^\n\t]+)\t([^\n\t]+)
+replace:<word pos="\3" lemma="\2" />\1</word>
